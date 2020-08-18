@@ -7,7 +7,7 @@ const requestOneTimePassword =require('./request_one_time_password')
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://one-time-password-566bc.firebaseio.com"
+    databaseURL: ""
   });
 
 
