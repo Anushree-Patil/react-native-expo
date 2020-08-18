@@ -8,7 +8,7 @@ const verifyOneTimePassword =require('./verify_one_password')
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://one-time-password-566bc.firebaseio.com"
+    databaseURL: ""
   });
 
 
